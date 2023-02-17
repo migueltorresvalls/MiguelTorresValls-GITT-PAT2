@@ -1,5 +1,15 @@
 #home{
-    background: rgb(53, 108, 162);
+
+    background: rgb(36,99,161);
+    background: linear-gradient(90deg, rgba(36,99,161,1) 0%, rgba(53,108,162,1) 100%, rgba(37,73,96,1) 100%);
+}
+
+.right-arrow {
+    height: 71%;
+}
+
+.right-arrow:hover{
+    background: rgba(36,99,161,1);
 }
 
 #description{
