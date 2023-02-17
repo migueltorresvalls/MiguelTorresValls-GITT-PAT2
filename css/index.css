@@ -1,0 +1,35 @@
+#home{
+    background: rgb(53, 108, 162);
+}
+
+#description{
+    top: 5%;
+    color: rgb(220, 211, 211);
+    position: relative; 
+    margin: 0; 
+    transform: translate(-50%, 0);
+    max-width: 50em;
+    left: 50%;
+    width: 50%;
+    font-size: 1em;
+    padding: 2em;
+    font-style: normal;
+    line-height: 1.5em;
+    /*box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
+}
+
+.home img {
+    width: 10em; 
+    height: 10em; 
+    border-radius: 5em;
+    position: relative; 
+    top: 3%;
+    transform: translate(-50%, 0);
+    left: 50%;
+    border: 3px solid #1d1d27;
+    box-shadow: 12px 5px 15px -5px #333;
+}
+
+footer{
+    background: rgb(35, 71, 106);
+}
