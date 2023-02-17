@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@import url(https://fonts.googleapis.com/css?family=Teko);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(53, 108, 162);
+    background: linear-gradient(90deg, rgb(58, 96, 134) 0%, rgba(53,108,162,1) 100%, rgba(37,73,96,1) 100%);
+
+    margin: 0; 
+    height: 100%;
+}
+
+
+.nav-menu {
+    position: relative; 
+    width: 100%;
+    height: 8em;
+    height: 14%;
+    top: 0;
+}
+
+.nav-menu ul{
+    background: #1d1d27; 
+    position: relative; 
+    border-radius: 2%;
+    transform: translate(-50%, -50%);
+    max-width: 50em;
+    max-height: 5em;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    padding: 0; 
+    margin: 0; 
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+}
+
+.nav-menu ul a{
+    height: 100%;
+    transition: all .5s ease-in-out;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.nav-menu ul li{
+    position: relative; 
+    display: inline-block; 
+    transform: translate(0, -50%);
+    top: 50%;
+}
+
+#home:hover{
+    background: rgb(53, 108, 162);
+}
+
+#inbox:hover{
+    background: palevioletred;
+}
+
+#portfolio:hover{
+    background: rgb(119, 160, 58);
+}
+
+#grid:hover{
+    background: orange;
+}
+
+.nav-menu ul li i {
+    color: rgb(220, 211, 211); 
+    font-size: 1.5em; 
+}
+
+.home{
+    width: 100%;
+    height: 40em;
+    height: 71%;
+    display: block;
+    position: relative; 
+}
+
+.home h1{
+    color: rgb(220, 211, 211);
+    font-family: "Georgia";
+    font-style: italic;
+    text-align: center;
+    position: relative; 
+    font-size: 2em;
+}
+
+.home p{
+    color: rgb(198, 188, 188);
+    text-align: center;
+    font-family: "Georgia";
+    font-style: italic;
+}
+
+footer{
+    width: 100%;
+    position: relative; 
+    height: 15%;
+    text-align: center;
+}
+
+footer p{
+    color: whitesmoke;
+    font-family: "Helvetica";
+    font-size: 1em; 
+    opacity: .7;
+    position: relative;
+    top: 20%;
+}
+
+footer p:hover{
+    text-decoration: underline;
+}
