@@ -11,5 +11,6 @@ La navegación de la página se puede realizar bien mediante el menú colocado e
 ![image](https://user-images.githubusercontent.com/97603106/219972554-c527c2c1-43a5-45c4-a4e8-b9e82d565840.png)
 
 
-La página contiene un formulario web que comprueba los datos introducidos pero no tiene conexion todavía con ninguna base de datos o servicio externo. 
+La página contiene una pequeña descripcion sobre la persona en cuestión, un formulario web que comprueba los datos introducidos pero no tiene conexion todavía con ninguna base de datos o servicio externo y un portfolio donde se puede desplegar los trabajos realizados. 
+En un futuro se quiere añadir una 4 ventana en la que se podrá visualizar el recorrido académico y profesional.
 
